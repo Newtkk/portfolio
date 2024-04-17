@@ -1,0 +1,30 @@
+.conteudo-habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.lista-habilidades {
+    list-style: inside url(../img/gastly.png);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.links-certificados {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 30px;
+    gap: 5em;
+}
+
+.buttons-certificados {
+    padding: 1em 0.3em;
+    width: 30%;
+    gap: 0.5em;
+}
+
+.buttons-certificados img {
+    width: 2em;
+}

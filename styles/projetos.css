@@ -1,0 +1,100 @@
+.container-projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 0 0 1.5em 0;
+}
+
+.cards-container {
+    height: 340px;
+    display: flex;
+    gap: 12px;
+    margin-inline: 50px;
+}
+
+.card {
+    border: 3px var(--cor-principal) solid;
+    border-radius: 10px;
+    min-width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    position: relative;
+    transition: flex-grow 0.5s ease;
+}
+
+.card:hover {
+    flex-grow: 7;
+}
+
+.bauhaus:hover {
+    flex-grow: 1.6;
+}
+
+.hourglass:hover {
+    flex-grow: 1.6;
+}
+
+.card > .background {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.5);
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.card > .card-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    overflow: hidden;
+    transition: var(--transition-timing);
+    z-index: 10;
+}
+
+.card:hover > .card-content {
+    inset: 20px;
+    top: auto;
+}
+
+.card:hover > .background {
+    filter: brightness(1);
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+.card-content > .card-title {
+    margin-left: 10px;
+    translate: 0 100%;
+    opacity: 0;
+    color: black;
+}
+
+.card:hover .card-title {
+    opacity: 1;
+    translate: 0 0;
+    background-color: white;
+    padding: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.card > .backdrop {
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+}

@@ -1,0 +1,59 @@
+.conteudo-home {
+    display: flex;
+}
+
+.left-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 60%;
+}
+
+.rede-links {
+    display: flex;
+    width: 28em;
+    gap: 1em;
+}
+
+.link-buttons {
+    padding: 0.3em;
+    display: flex;
+    width: 35%;
+    border: var(--cor-principal) solid 0.15em;
+    border-radius: 0.5em;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    transition: 0.5s ease;
+}
+
+.link-buttons:hover {
+    background-color: #2A2A2A;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.right-holder {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    height: 30em;
+    border-radius: 1.2em;
+}
+
+.gif-holder {
+    display: flex;
+    justify-content: center;
+    width: 28em;
+}
+
+.gengar-gif {
+    display: flex;
+    width: 10em;
+    justify-self: center;
+    transform: scaleX(-1) ;
+}

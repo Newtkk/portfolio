@@ -1,0 +1,71 @@
+:root {
+    --cor-de-fundo: #1A1A1A;
+    --cor-principal: #800280;
+    --cor-do-texto: #EAEAEA;
+    --fonte-principal: 'Goldman', sasn-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 1em;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-do-texto);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin: 1em 0 1em 2em;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    gap: 0.2em;
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+hr {
+    border: var(--cor-principal) solid 0.1em;
+    margin: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 2em 1em 2em;
+    gap: 5em;
+}
+
+.container-titulo {
+    font-size: 2.3em;
+}
+
+.container-titulo strong{
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+.container-texto {
+    font-size: 1.3em;
+}
+
+.rodape-texto {
+    display: flex;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-principal);
+}
