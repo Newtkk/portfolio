@@ -1,6 +1,7 @@
 :root {
     --cor-de-fundo: #1A1A1A;
     --cor-principal: #800280;
+    --cor-secundaria: #959595;
     --cor-do-texto: #EAEAEA;
     --fonte-principal: 'Goldman', sasn-serif;
 }
@@ -19,13 +20,18 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: var(--cor-do-texto);
+    transition: .5s;
 }
 
 .navbar {
     display: flex;
-    align-items: center;
-    gap: 2em;
-    margin: 1em 0 1em 2em;
+    justify-content: space-between;
+    margin: 1em 2em;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 2.5em;
 }
 
 .nav-links {

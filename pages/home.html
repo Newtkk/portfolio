@@ -10,20 +10,29 @@
 
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/modes.css">
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="stylesheet" href="../styles/habilidades.css">
     <link rel="stylesheet" href="../styles/projetos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <title>Newt San</title>
 </head>
 
 <body>
     <header class="navbar">
-        <a id="home-button" class="nav-links" href="#home"><img src="../img/home.svg" alt="">Home</a>
+        <div class="navbar-left">
+            <a id="home-button" class="nav-links" href="#home"><img src="../img/home.svg" alt="">Home</a>
 
-        <a id="habilidades-button" class="nav-links" href="#habilidades"><img src="../img/habilidades.svg" alt="">Habilidades</a>
+            <a id="habilidades-button" class="nav-links" href="#habilidades"><img src="../img/habilidades.svg" alt="">Habilidades</a>
 
-        <a id="projetos-button" class="nav-links" href="#projetos"><img src="../img/projetos.svg" alt="">Projetos</a>
+            <a id="projetos-button" class="nav-links" href="#projetos"><img src="../img/projetos.svg" alt="">Projetos</a>
+        </div>
+
+        <div class="navbar-right">
+            <img class="icon icon-light mode" id="icon-light" src="../img/light.svg" alt="">
+            <img class="icon icon-dark " id="icon icon-dark" src="../img/dark.svg" alt="">
+        </div>
     </header>
 
     <hr>
@@ -40,9 +49,9 @@
 
                 <div class="rede-links">
 
-                    <a class="link-buttons" href=""><img src="../img/github.svg" alt="" target="_blank">Github</a>
-                    <a class="link-buttons" href=""><img src="../img/linkedin.svg" alt="">LinkedIn</a>
-                    <a class="link-buttons" href=""><img src="../img/email.svg" alt="">E-mail</a>
+                    <a class="link-buttons" href=""><i id="github"class="fa-brands fa-github"></i>Github</a>
+                    <a class="link-buttons" href=""><i id="linkedin" class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    <a class="link-buttons" href=""><i id="email" class="fa-regular fa-envelope"></i>E-mail</a>
 
                 </div>   
 
@@ -75,7 +84,7 @@
 
             <div class="rede-links links-certificados">
 
-                    <a class="link-buttons buttons-certificados" href="https://drive.google.com/drive/folders/1ziLsw7ivY7dTvK4in6tBibWFGj5mXwlF?usp=sharing" target="_blank"><img src="../img/certificados.svg" alt="">Certificados Gerais</a>
+                    <a class="link-buttons buttons-certificados" href="https://drive.google.com/drive/folders/1ziLsw7ivY7dTvK4in6tBibWFGj5mXwlF?usp=sharing" target="_blank"><i id="certificados"class="fa-solid fa-folder-open"></i>Certificados Gerais</a>
 
                     <a class="link-buttons buttons-certificados" href="https://cursos.alura.com.br/user/ruandylon7/fullCertificate/0d18033860078b18ede398227ae732ec" target="_blank"><img src="../img/alura.png" alt="">Certificados Alura</a>
 
@@ -162,6 +171,8 @@
     <footer class="rodape">
         <p class="rodape-texto">Desenvolvido por Newt.</p>
     </footer>
+
+    <script src="../scripts/main.js"></script>
 </body>
 
 </html>

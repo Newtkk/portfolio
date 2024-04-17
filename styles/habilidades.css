@@ -25,6 +25,11 @@
     gap: 0.5em;
 }
 
+#certificados {
+    font-size: 1.5em;
+    color: var(--cor-do-texto);
+}
+
 .buttons-certificados img {
     width: 2em;
 }

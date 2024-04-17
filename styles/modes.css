@@ -1,0 +1,47 @@
+.icon {
+    cursor: pointer;
+    animation: 2s ease-in;
+}
+
+.icon.mode {
+    display: flex;
+    animation: 2s ease-in;
+}
+
+.icon {
+    display: none;
+}
+
+body.mode {
+    background-color: var(--cor-do-texto);
+    color: var(--cor-de-fundo);
+}
+
+body.mode .nav-links {
+    color: var(--cor-principal);
+}
+
+body.mode .link-buttons:hover {
+    background-color: transparent;
+}
+
+body.mode a{
+    color: var(--cor-de-fundo);
+}
+
+body.mode #github{
+    color: var(--cor-de-fundo);
+}
+
+body.mode #linkedin{
+    color: var(--cor-de-fundo);
+}
+
+body.mode #email{
+    color: var(--cor-de-fundo);
+}
+
+body.mode #certificados {
+    color: var(--cor-de-fundo);
+}
+

@@ -16,7 +16,7 @@
 }
 
 .link-buttons {
-    padding: 0.3em;
+    padding: 0.5em;
     display: flex;
     width: 35%;
     border: var(--cor-principal) solid 0.15em;
@@ -26,12 +26,28 @@
     text-decoration: none;
     color: var(--cor-do-texto);
     transition: 0.5s ease;
+    gap: 0.5em;
 }
 
 .link-buttons:hover {
     background-color: #2A2A2A;
     transform: scale(1.1);
     transition: 0.5s ease;
+}
+
+#github{
+    font-size: 1.5em;
+    color: var(--cor-do-texto);
+}
+
+#linkedin{
+    font-size: 1.5em;
+    color: var(--cor-do-texto);
+}
+
+#email{
+    font-size: 1.5em;
+    color: var(--cor-do-texto);
 }
 
 .right-holder {
