@@ -15,7 +15,7 @@
 .card {
     border: 3px var(--cor-principal) solid;
     border-radius: 10px;
-    min-width: 70px;
+    min-width: 50px;
     height: 100%;
     display: flex;
     align-items: flex-end;
@@ -34,6 +34,10 @@
 
 .hourglass:hover {
     flex-grow: 1.6;
+}
+
+.moodboard:hover {
+    flex-grow: 10;
 }
 
 .card > .background {
