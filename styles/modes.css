@@ -15,6 +15,7 @@
 body.mode {
     background-color: var(--cor-do-texto);
     color: var(--cor-de-fundo);
+    transition: .5s;
 }
 
 body.mode .nav-links {

@@ -1,24 +1,40 @@
 .conteudo-home {
     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1em;
+}
+
+.foto {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 1.2em;
 }
 
 .left-holder {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    width: 60%;
+}
+
+.container-titulo {
+    text-align: center;
+}
+
+.container-texto {
+    text-align: center;
 }
 
 .rede-links {
     display: flex;
-    width: 28em;
+    flex-wrap: wrap;
     gap: 1em;
+    justify-content: center;
 }
 
 .link-buttons {
     padding: 0.5em;
     display: flex;
-    width: 35%;
     border: var(--cor-principal) solid 0.15em;
     border-radius: 0.5em;
     align-items: center;
@@ -38,16 +54,19 @@
 #github{
     font-size: 1.5em;
     color: var(--cor-do-texto);
+    transition: .5s;
 }
 
 #linkedin{
     font-size: 1.5em;
     color: var(--cor-do-texto);
+    transition: .5s;
 }
 
 #email{
     font-size: 1.5em;
     color: var(--cor-do-texto);
+    transition: .5s;
 }
 
 .right-holder {
@@ -56,20 +75,28 @@
     justify-content: center;
 }
 
-.foto {
-    height: 30em;
-    border-radius: 1.2em;
-}
-
 .gif-holder {
     display: flex;
     justify-content: center;
-    width: 28em;
 }
 
 .gengar-gif {
     display: flex;
     width: 10em;
-    justify-self: center;
     transform: scaleX(-1) ;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .conteudo-home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-holder {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
 }

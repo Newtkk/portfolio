@@ -8,20 +8,18 @@
     list-style: inside url(../img/gastly.png);
     display: flex;
     flex-direction: column;
-    gap: 0.8em;
+    gap: 2em;
 }
 
 .links-certificados {
     display: flex;
     justify-content: center;
-    width: 90%;
     padding: 30px;
-    gap: 5em;
+    gap: 2em;
 }
 
 .buttons-certificados {
-    padding: 1em 0.3em;
-    width: 30%;
+    padding: 1em 0.8em;
     gap: 0.5em;
 }
 

@@ -21,25 +21,31 @@
 
 <body>
     <header class="navbar">
-        <div class="navbar-left">
+
+        <nav class="navbar-left">
+
+            <nav class="menu-hamburguer">
+                <i class="fa-solid fa-bars menu-hamburguer"></i>
+            </nav>
+
             <a id="home-button" class="nav-links" href="#home"><img src="../img/home.svg" alt="">Home</a>
 
             <a id="habilidades-button" class="nav-links" href="#habilidades"><img src="../img/habilidades.svg" alt="">Habilidades</a>
 
             <a id="projetos-button" class="nav-links" href="#projetos"><img src="../img/projetos.svg" alt="">Projetos</a>
-        </div>
+        </nav>
 
-        <div class="navbar-right">
+        <nav class="navbar-right">
             <img class="icon icon-light mode" id="icon-light" src="../img/light.svg" alt="">
             <img class="icon icon-dark " id="icon icon-dark" src="../img/dark.svg" alt="">
-        </div>
+        </nav>
     </header>
 
     <hr>
 
     <main class="conteudo">
 
-        <div class="conteudo-home" id="home">
+        <section class="conteudo-home" id="home">
 
             <div class="left-holder">
 
@@ -47,17 +53,19 @@
 
                 <p class="container-texto">Olá! Me chamo Newton Santos, sou UX e Web Designer com especialidade em HTML, CSS, e ferramentas de Design e prototipação, ajudo empresas que querem crescer a desenvolver sua identidade visual e deixar sua marca no mundo. Entre em contato!</p>
 
-                <div class="rede-links">
+                <span class="bottom-box">
 
-                    <a class="link-buttons" href=""><i id="github"class="fa-brands fa-github"></i>Github</a>
-                    <a class="link-buttons" href=""><i id="linkedin" class="fa-brands fa-linkedin"></i>LinkedIn</a>
-                    <a class="link-buttons" href=""><i id="email" class="fa-regular fa-envelope"></i>E-mail</a>
+                    <div class="rede-links">
+                        <a class="link-buttons" href=""><i id="github"class="fa-brands fa-github"></i>Github</a>
+                        <a class="link-buttons" href=""><i id="linkedin" class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                        <a class="link-buttons" href=""><i id="email" class="fa-regular fa-envelope"></i>E-mail</a>
+                    </div>
 
-                </div>   
+                    <div class="gif-holder">
+                        <img class="gengar-gif" src="../img/gengar-gif.gif" alt="">
+                    </div>
 
-                <div class="gif-holder">
-                    <img class="gengar-gif" src="../img/gengar-gif.gif" alt="">
-                </div>
+                </span>
 
             </div>
 
@@ -65,9 +73,9 @@
                 <img class="foto" src="../img/foto_newt.jpg" alt="Foto de Newton Santos">
             </div>
 
-        </div>
+        </section>
 
-        <div class="conteudo-habilidades" id="habilidades">
+        <section class="conteudo-habilidades" id="habilidades">
 
             <h1 class="container-titulo">Minhas <strong>habilidades</strong></h1>
 
@@ -90,9 +98,9 @@
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="container-projetos" id="projetos">
+        <section class="container-projetos" id="projetos">
 
             <h1 class="container-titulo"><strong>Projetos</strong></h1>
 
@@ -118,10 +126,10 @@
                 </div>
 
 
-                <div class="card ceramicos">
-                    <img class="background" src="../img/projects/Cerâmicos.png" alt="">
+                <div class="card aluraplus">
+                    <img class="background" src="../img/projects/Aluraplus.png" alt="">
                     <div class="card-content">
-                        <a href="https://docs.google.com/presentation/d/1Jc7WRGLq1Nm4q_-BQI5xxg8OewGvtsoPropcXUzTc24/edit?usp=sharing" target="_blank" class="card-title">Revestimento cerâmico em veículos espaciais</a>
+                        <a href="https://newtkk.github.io/alura-plus/" target="_blank" class="card-title">Alura Plus</a>
                     </div>
                     <div class="backdrop"></div>
                 </div>
@@ -162,9 +170,17 @@
                     <div class="backdrop"></div>
                 </div>
 
+                <div class="card alurabooks">
+                    <img class="background" src="../img/projects/Alurabooks.png" alt="">
+                    <div class="card-content">
+                        <a href="https://newtkk.github.io/alura-books/" target="_blank" class="card-title">Alura Books</a>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+
             </div>
             
-        </div>
+        </section>
         
     </main>
 
