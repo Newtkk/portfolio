@@ -34,13 +34,13 @@ body {
     align-items: center;
     gap: 2.5em;
 }
-
+/* 
 .menu-hamburguer {
     display: block;
     color: var(--cor-principal);
     font-size: 1.3em;
     align-items: center;
-}
+} */
 
 .nav-links {
     display: none;
@@ -92,5 +92,9 @@ hr {
 
     .nav-links {
         display: flex;
+    }
+
+    .nav-img {
+        display: none;
     }
 }
