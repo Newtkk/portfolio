@@ -22,26 +22,34 @@
 <body>
     <header class="navbar">
 
-        <nav class="navbar-left">
-
-            <nav class="menu-hamburguer">
-                <i class="fa-solid fa-bars menu-hamburguer"></i>
+        <div class="navmain">
+            <nav class="navbar-left">
+                <nav class="menu-hamburguer">
+                    <input type="checkbox" id="menu" class="menubtn">
+                    <label for="menu">
+                        <span class="cabmenu"></span>
+                    </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item"><a href="#home" class="lista-menu__link">Home</a>
+                        </li>
+                        <li class="lista-menu__item"><a href="#habilidades" class="lista-menu__link">Habilidades</a>
+                        </li>
+                        <li class="lista-menu__item"><a href="#projetos" class="lista-menu__link">Projetos</a>
+                        </li>
+                        </li>
+                    </ul>
+                </nav>
+                <a id="home-button" class="nav-links" href="#home"><img src="../img/home.svg" alt="">Home</a>
+                <a id="habilidades-button" class="nav-links" href="#habilidades"><img src="../img/habilidades.svg" alt="">Habilidades</a>
+                <a id="projetos-button" class="nav-links" href="#projetos"><img src="../img/projetos.svg" alt="">Projetos</a>
             </nav>
+            <nav class="navbar-right">
+                <img class="icon icon-light mode" id="icon-light" src="../img/light.svg" alt="">
+                <img class="icon icon-dark " id="icon icon-dark" src="../img/dark.svg" alt="">
+            </nav>
+        </div>
 
-            <a id="home-button" class="nav-links" href="#home"><img src="../img/home.svg" alt="">Home</a>
-
-            <a id="habilidades-button" class="nav-links" href="#habilidades"><img src="../img/habilidades.svg" alt="">Habilidades</a>
-
-            <a id="projetos-button" class="nav-links" href="#projetos"><img src="../img/projetos.svg" alt="">Projetos</a>
-        </nav>
-
-        <nav class="navbar-right">
-            <img class="icon icon-light mode" id="icon-light" src="../img/light.svg" alt="">
-            <img class="icon icon-dark " id="icon icon-dark" src="../img/dark.svg" alt="">
-        </nav>
     </header>
-
-    <hr>
 
     <main class="conteudo">
 

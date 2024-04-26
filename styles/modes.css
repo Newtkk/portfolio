@@ -18,6 +18,18 @@ body.mode {
     transition: .5s;
 }
 
+body.mode .lista-menu {
+    background-color: var(--cor-de-fundo);
+}
+
+body.mode .lista-menu__link {
+    color: var(--cor-principal);
+}
+
+body.mode .navbar {
+    background-color: var(--cor-de-fundo);
+}
+
 body.mode .nav-links {
     color: var(--cor-principal);
 }

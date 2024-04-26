@@ -59,24 +59,33 @@
     text-decoration: none;
 }
 
-/*Estlização do Hover
-
-
-
-*/
+.card > .backdrop {
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+}
 
 @media screen and (min-width: 1024px) {
+
+    .card-content > .card-title {
+        opacity: 0;
+    }
 
     .card:hover {
         flex-grow: 7;
     }
     
     .bauhaus:hover {
-        flex-grow: 1.6;
+        flex-grow: 2.5;
     }
     
     .hourglass:hover {
-        flex-grow: 1.6;
+        flex-grow: 2.5;
     }
     
     .moodboard:hover {
@@ -96,7 +105,7 @@
         transition: flex-grow 0.5s ease;
     }
     
-    .card > background {
+    .card > .background {
         filter: brightness(0.5);
     }
     
