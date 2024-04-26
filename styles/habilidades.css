@@ -31,3 +31,30 @@
 .buttons-certificados img {
     width: 2em;
 }
+
+.ferramentas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.icones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ferramentas-icon {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.iconf {
+    width: 100%;
+}
