@@ -5,7 +5,7 @@
 }
 
 .lista-habilidades {
-    list-style: inside url(../img/gastly.png);
+    list-style: inside url(../assets/gastly.png);
     display: flex;
     flex-direction: column;
     gap: 2em;
