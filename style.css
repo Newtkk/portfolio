@@ -56,7 +56,7 @@ body {
 .cabmenu{
     width: 30px;
     height: 30px;
-    background-image: url("../assets/menuhamb.svg");
+    background-image: url("./assets/menuhamb.svg");
     background-position: top;
     background-repeat: no-repeat;
     background-position: center;
