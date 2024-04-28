@@ -40,7 +40,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 0 2em;
+    margin: 0 1em;
 }
 
 .navbar-left {
@@ -135,6 +135,10 @@ body {
 
     .menu-hamburguer {
         display: none;
+    }
+
+    .navmain {
+        margin: 0 2em;
     }
 
     .nav-links {

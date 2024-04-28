@@ -1,4 +1,5 @@
 .icon {
+    display: none;
     cursor: pointer;
     animation: 2s ease-in;
 }
@@ -6,10 +7,6 @@
 .icon.mode {
     display: flex;
     animation: 2s ease-in;
-}
-
-.icon {
-    display: none;
 }
 
 body.mode {
