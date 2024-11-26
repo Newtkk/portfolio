@@ -112,7 +112,6 @@ body {
 
 .container-titulo {
     font-size: 2em;
-    font-family: var(--fonte-principal);
 }
 
 .container-titulo strong{
